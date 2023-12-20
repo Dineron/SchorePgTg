@@ -1,3 +1,4 @@
+
 import pygame
 import threading
 import telebot
@@ -241,4 +242,4 @@ thread = threading.Thread(target=TelegramController)
 thread2 = threading.Thread(target=PyGameController)
  
 thread.start()
-thread2.start()
+thread2.start() 
